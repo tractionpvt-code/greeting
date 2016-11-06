@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class FortuneService implements Greeting {
 
-	private String[] messages = { "Your Stars are gonna shine this week :)",
-			"You need to take care of your health",
+	private String[] messages = { "Your stars are gonna shine this week :)",
+			"You need to take care of your health","May hay when sun shines :)",
 			"Its time to move on I guess :)", "Be little careful at work" };
 
 	private Random random = new Random();
