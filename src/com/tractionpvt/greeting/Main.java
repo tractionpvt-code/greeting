@@ -8,8 +8,8 @@ public class Main {
 		System.out.println(greeting.greet("Traction"));
 		
 		// Fortune Greeting Service
-		Greeting fortuneGreeting = new FortuneService();
-		System.out.println(fortuneGreeting.greet("Jonathan"));
+		greeting = new FortuneService();
+		System.out.println(greeting.greet("Jonathan"));
 		
 	}
 	
